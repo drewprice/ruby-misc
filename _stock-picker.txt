@@ -1,0 +1,12 @@
+_stock-picker.txt
+
+
+--METHOD 1
+	For each day
+		calculate all possible profits
+		store each day with its greatest possible profit & sell date
+	Return the largest profit
+
+--METHOD 2
+	Find the min with the lowest index
+	Find the max with index > min.index

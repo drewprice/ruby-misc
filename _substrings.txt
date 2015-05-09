@@ -1,0 +1,8 @@
+
+create arrays of each substring; ex:
+	str = "below"
+	substr_arr = ["be", "bel", "belo", "below", "el", "elo", "elow", "lo", "low", "ow"]
+then combine dictionary + substr_arr
+
+create a new uniq_arr from combined, and subract the uniq_arr
+create hash containing each word in substr and it's count
